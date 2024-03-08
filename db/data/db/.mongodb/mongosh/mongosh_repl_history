@@ -1,0 +1,24 @@
+use maindb.users
+show collections
+use maindb.users
+print 
+print users
+use maindb
+show databases
+help
+clc
+clear
+clc
+printjson
+show
+show collection users
+show users
+print
+show document
+show documents
+use users
+show collections
+use maindb
+show databases
+help
+db.show()
