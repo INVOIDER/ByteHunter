@@ -7,6 +7,7 @@ const PORT = process.env.PORT || 5000;
 const app = express()
 const dbClient = new MongoClient(process.env.DB_URL);
 
+app.use(express.json)
 
 const startDB = async () =>{
     try{
